@@ -1,7 +1,3 @@
-'use strict';
+import { foo } from "@drewfle-scripts/utils";
 
-module.exports = pho;
-
-function pho() {
-    // TODO
-}
+console.log(foo);

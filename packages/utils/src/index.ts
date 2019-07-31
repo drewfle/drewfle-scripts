@@ -1,7 +1,1 @@
-'use strict';
-
-module.exports = utils;
-
-function utils() {
-    // TODO
-}
+export const foo = "bar";
