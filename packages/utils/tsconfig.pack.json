@@ -1,6 +1,7 @@
 {
   "extends": "../../tsconfig.pack.json",
   "compilerOptions": {
+    "composite": true,
     "outDir": "./dist"
   },
   "include": ["src/**/*"]
