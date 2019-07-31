@@ -5,12 +5,14 @@
   "author": "Andrew Liu <andrewliustudio@gmail.com>",
   "homepage": "https://github.com/drewfle/drewfle-scripts#readme",
   "license": "ISC",
-  "main": "lib/utils.js",
+  "main": "dist/index.js",
+  "types": "dist/index",
   "directories": {
     "src": "src",
     "test": "__tests__"
   },
   "files": [
+    "dist",
     "src"
   ],
   "publishConfig": {
@@ -21,6 +23,9 @@
     "url": "git+https://github.com/drewfle/drewfle-scripts.git"
   },
   "scripts": {
+    "build": "npm run clean && npm run build:prod",
+    "clean": "rm -rf ./dist",
+    "build:prod": "tsc -p tsconfig.pack.json",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {

@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "build": "lerna run build",
     "clean": "npm run clean:lerna && npm run clean:git",
     "clean:lerna": "lerna clean -y",
     "clean:git": "git clean -fdx"
