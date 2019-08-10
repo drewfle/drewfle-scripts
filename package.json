@@ -4,9 +4,12 @@
   "scripts": {
     "build": "lerna run build",
     "postinstall": "lerna bootstrap --hoist",
-    "clean": "npm run clean:lerna && npm run clean:git",
-    "clean:lerna": "lerna clean -y",
-    "clean:git": "git clean -fdx"
+    "clean": "",
+    "reset:npm": "reset:npm:packages && reset:npm:root",
+    "reset:npm:packages": "lerna reset -y",
+    "reset:npm:root": "rm -r node_modules",
+    "reset:git": "git reset -fdx",
+    "reset": "npm run reset:npm:packages && npm run reset:git"
   },
   "devDependencies": {
     "lerna": "^3.16.4",

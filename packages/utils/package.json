@@ -23,7 +23,9 @@
   },
   "scripts": {
     "build": "npm run clean && npm run build:prod",
-    "clean": "rm -rf ./dist && rm -rf tsconfig.pack.tsbuildinfo",
+    "clean": "run-p clean:*",
+    "clean:ts": "rm -rf dist/ && rm -rf tsconfig.pack.tsbuildinfo",
+    "clean:jest": "rm -r tmp/jest_cache",
     "build:prod": "tsc -b tsconfig.pack.json",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
