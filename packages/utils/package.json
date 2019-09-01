@@ -25,7 +25,7 @@
     "build": "npm run clean && npm run build:prod",
     "clean": "run-p clean:*",
     "clean:ts": "rm -rf dist/ && rm -rf tsconfig.pack.tsbuildinfo",
-    "clean:jest": "rm -r tmp/jest_cache",
+    "clean:jest": "rm -rf tmp/",
     "build:prod": "tsc -b tsconfig.pack.json",
     "test": "jest"
   },

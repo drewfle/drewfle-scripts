@@ -121,13 +121,9 @@
         "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
         "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
       },
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/packages/utils/dist/index.d.ts": {
-        "version": "8c6897b16ad860d307c5c7d91d2776d1d724a59f4157b1ae2544083891571b00",
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/packages/utils/src/index.ts": {
+        "version": "1536f2fb0f350f8bb5b00bb321f89fefe39448c2d1cf22ac9d1b6bdbd81705d8",
         "signature": "8c6897b16ad860d307c5c7d91d2776d1d724a59f4157b1ae2544083891571b00"
-      },
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/packages/pho/src/index.ts": {
-        "version": "0d4115f06414727dd4af401c0664af011e0037611302e2b8ddc9aff75582aefd",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
       "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/events/index.d.ts": {
         "version": "400db42c3a46984118bff14260d60cec580057dc1ab4c2d7310beb643e4f5935",
@@ -324,9 +320,9 @@
       "sourceMap": true,
       "composite": true,
       "declaration": true,
-      "outDir": "/Users/drewfle/Dev/drewfle-github/drewfle-scripts/packages/pho/dist",
-      "rootDir": "/Users/drewfle/Dev/drewfle-github/drewfle-scripts/packages/pho/src",
-      "configFilePath": "/Users/drewfle/Dev/drewfle-github/drewfle-scripts/packages/pho/tsconfig.pack.json"
+      "outDir": "/Users/drewfle/Dev/drewfle-github/drewfle-scripts/packages/utils/dist",
+      "rootDir": "/Users/drewfle/Dev/drewfle-github/drewfle-scripts/packages/utils/src",
+      "configFilePath": "/Users/drewfle/Dev/drewfle-github/drewfle-scripts/packages/utils/tsconfig.pack.json"
     },
     "referencedMap": {
       "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/typescript/lib/lib.d.ts": [
@@ -449,12 +445,7 @@
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/packages/utils/dist/index.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/packages/pho/src/index.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/packages/utils/dist/index.d.ts",
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/packages/utils/src/index.ts": [
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -861,10 +852,6 @@
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/packages/utils/dist/index.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/events/index.d.ts": [
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
@@ -874,207 +861,6 @@
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/assert.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/async_hooks.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/buffer.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/child_process.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/cluster.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/child_process.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/console.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/constants.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/crypto.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/dgram.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/dns.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/dns.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/domain.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/fs.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/url.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/http.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/url.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/http2.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/fs.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/tls.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/url.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/http.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/https.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/tls.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/http.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/url.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/inspector.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/module.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/dns.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/os.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/path.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/perf_hooks.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/async_hooks.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/process.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/punycode.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/querystring.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/readline.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/repl.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/readline.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/vm.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/string_decoder.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/timers.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/tls.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/crypto.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/dns.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/trace_events.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/tty.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/url.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/querystring.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/v8.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/vm.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/worker_threads.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/vm.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/zlib.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1121,28 +907,229 @@
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/zlib.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts"
-      ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/globals.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/globals.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/index.d.ts": [
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/base.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/globals.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts"
       ],
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/minimatch/index.d.ts": [
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
-        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/glob/index.d.ts": [
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/minimatch/index.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/async_hooks.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/perf_hooks.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/async_hooks.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/buffer.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/child_process.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/cluster.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/child_process.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/console.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/constants.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/crypto.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/tls.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/crypto.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/dns.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/https.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/tls.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/http.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/url.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/http2.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/fs.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/tls.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/url.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/http.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/dgram.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/dns.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/dns.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/dns.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/tty.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/http.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/url.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/net.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/domain.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/worker_threads.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/vm.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/zlib.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/v8.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/readline.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/repl.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/readline.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/vm.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/fs.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/stream.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/url.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/inspector.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/events.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/module.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/os.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/path.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/process.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/punycode.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/querystring.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/url.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/querystring.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/string_decoder.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/timers.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/trace_events.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/minimatch/index.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/globals.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/vm.d.ts": [
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/util.d.ts",
         "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/ts3.2/util.d.ts"
       ]
@@ -1178,8 +1165,7 @@
       "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
       "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/packages/utils/dist/index.d.ts",
-      "/users/drewfle/dev/drewfle-github/drewfle-scripts/packages/pho/src/index.ts",
+      "/users/drewfle/dev/drewfle-github/drewfle-scripts/packages/utils/src/index.ts",
       "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/events/index.d.ts",
       "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/globals.d.ts",
       "/users/drewfle/dev/drewfle-github/drewfle-scripts/node_modules/@types/node/assert.d.ts",
