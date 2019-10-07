@@ -1,3 +1,3 @@
 module.exports = {
-  cacheDirectory: "<root"
+  // cacheDirectory: "<root"
 };

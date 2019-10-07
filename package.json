@@ -3,13 +3,14 @@
   "private": true,
   "scripts": {
     "build": "lerna run build",
+    "test": "jest",
     "postinstall": "lerna bootstrap --hoist",
-    "clean": "run-p _clean:*",
-    "reset": "npm run _reset:node_modules:packages && npm run _reset:git",
-    "_clean:pho": "cd packages/pho && npm run clean",
-    "_clean:utils": "cd packages/utils && npm run clean",
-    "_reset:node_modules:packages": "lerna clean -y",
-    "_reset:git": "git clean -fdx"
+    "clean:pkg": "run-p _clean:pkg:*",
+    "clean:all": "npm run _clean:pkg:only-node-modules && npm run _clean:git",
+    "_clean:pkg:pho": "cd packages/pho && npm run clean",
+    "_clean:pkg:utils": "cd packages/utils && npm run clean",
+    "_clean:pkg:only-node-modules": "lerna clean -y",
+    "_clean:git": "git clean -fdx"
   },
   "devDependencies": {
     "lerna": "^3.16.4",
