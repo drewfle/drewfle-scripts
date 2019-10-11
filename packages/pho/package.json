@@ -25,7 +25,7 @@
   "scripts": {
     "build": "npm run clean && npm run build:prod",
     "clean": "rm -rf ./dist && rm -rf *.tsbuildinfo",
-    "build:prod": "tsc -b tsconfig.pkg.json",
+    "build:prod": "tsc -b tsconfig.build.json",
     "prepublishOnly": "npm run build",
     "test": "jest"
   },

@@ -1,3 +1,5 @@
 module.exports = {
-  // cacheDirectory: "<root"
+  preset: "ts-jest",
+  testEnvironment: "node",
+  testPathIgnorePatterns: ["/dist/", "/node_modules/"]
 };

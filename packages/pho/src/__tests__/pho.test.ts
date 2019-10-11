@@ -1,4 +1,4 @@
-import { getFoo } from "../src";
+import { getFoo } from "..";
 
 describe("@drewfle-scripts/pho", () => {
   it("foo", () => {
