@@ -5,7 +5,7 @@
   "author": "Andrew Liu <andrewliustudio@gmail.com>",
   "homepage": "https://github.com/drewfle/drewfle-scripts#readme",
   "license": "ISC",
-  "main": "dist/index.js",
+  "main": "dist/index",
   "types": "dist/index",
   "directories": {
     "src": "src",
@@ -24,10 +24,10 @@
   },
   "scripts": {
     "build": "npm run clean && npm run build:prod",
-    "clean": "rm -rf ./dist && rm -rf tsconfig.build.tsbuildinfo",
-    "build:prod": "tsc -b tsconfig.pack.json",
+    "clean": "rm -rf ./dist && rm -rf *.tsbuildinfo",
+    "build:prod": "tsc -b tsconfig.pkg.json",
     "prepublishOnly": "npm run build",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/drewfle/drewfle-scripts/issues"
@@ -36,6 +36,9 @@
     "@drewfle-scripts/utils": "^0.0.0"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
     "typescript": "3.5.3"
   }
 }

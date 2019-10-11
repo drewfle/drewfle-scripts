@@ -1,3 +1,5 @@
 import { foo } from "@drewfle-scripts/utils";
 
-console.log(foo);
+export function getFoo() {
+  return foo;
+}

@@ -1,9 +1,11 @@
 {
-  "extends": "./tsconfig.pack.json",
+  "extends": "./tsconfig.pkg.json",
   "compilerOptions": {
     "baseUrl": "./packages",
     "paths": {
-      "*": ["*/src"]
+      "@drewfle-scripts/pho": ["pho/src"],
+      "@drewfle-scripts/utils": ["utils/src"],
+      "@drewfle-scripts/*": ["*/src"]
     }
   }
 }
